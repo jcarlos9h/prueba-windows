@@ -3,5 +3,26 @@
     padding: 0;
 }
 
+a d-flex{
+   text-decoration: none;
+}
 
+.producto {
+    max-width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
 
+.imagen {
+    width: 200px;
+    height: 200px;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
