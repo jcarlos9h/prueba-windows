@@ -69,7 +69,7 @@ const productos = [
                                     stock: 3
                                     },
                                     {   id: 1,
-                                        nombre: "Balon Basket Spalding", 
+                                        nombre: "Balon Spalding", 
                                         img: "img/basket/pelota-basquet-spalding-nba-33-oversize-marron-34004s074878001-1.jpg",
                                         precio: 15000,
                                         descripcion:"Balon de Baloncesto",
@@ -90,7 +90,10 @@ const div =document.createElement('div');
  <h3>${producto.nombre}</h3>
  <p>${producto.descripcion}</p>
  <p class="precio">${producto.precio}</p>
-<button id="agregar ${producto.id}" class="boton-agregar"> <i class =" fas-fa-shopping-cart"></i></button> 
+<button id="agregar ${producto.id}" class="boton-agregar"> Agregar <i class =" fas fa-shopping-cart"></i></button> 
  `
  contenedorProductos.appendChild(div);
+
+
+
 })
